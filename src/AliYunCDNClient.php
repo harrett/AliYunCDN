@@ -28,9 +28,9 @@ class AliYunCDNClient
         date_default_timezone_set('UTC');
         $this->common_params = [
             'Format' => 'JSON',
-            'Version' => '2014-11-11',
+            'Version' => '2018-05-10',
             'SignatureMethod' => 'HMAC-SHA1',
-            'TimeStamp' => date('Y-m-d\TH:i:s\Z'),
+            'Timestamp' => date('Y-m-d\TH:i:s\Z'),
             'SignatureVersion' => '1.0',
             'SignatureNonce' => uniqid(),
         ];

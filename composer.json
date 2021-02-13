@@ -1,12 +1,12 @@
 {
-    "name": "eddy/aliyuncdn",
+    "name": "harrett/aliyuncdn",
     "description": "AliYunCDN",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Eddy",
-            "email": "cumtsjh@163.com"
+            "name": "Harrett",
+            "email": "harrett@163.com"
         }
     ],
     "minimum-stability": "dev",
